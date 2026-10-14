@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-13 Asia/Singapore",
+  "status": "PASS",
+  "isolated_database_tests": 16,
+  "failures": 0,
+  "errors": 0,
+  "javascript_syntax": "PASS",
+  "database_scope": "Each test uses a fresh TemporaryDirectory SQLite database; the running demo database is untouched.",
+  "real_transactions": "NOT_EXECUTED",
+  "log": "test_assign_reclaim_and_late_pickup_denied (test_flows.CampusFlows.test_assign_reclaim_and_late_pickup_denied) ... ok\ntest_building_rules_and_quote_policy_version (test_flows.CampusFlows.test_building_rules_and_quote_policy_version) ... ok\ntest_cancel_and_reject_refund_once (test_flows.CampusFlows.test_cancel_and_reject_refund_once) ... ok\ntest_full_delivery_and_persistence (test_flows.CampusFlows.test_full_delivery_and_persistence) ... ok\ntest_idempotent_create_and_payment (test_flows.CampusFlows.test_idempotent_create_and_payment) ... ok\ntest_invalid_state_and_wrong_payment_amount (test_flows.CampusFlows.test_invalid_state_and_wrong_payment_amount) ... ok\ntest_inventory_edit_cannot_overwrite_reservation (test_flows.CampusFlows.test_inventory_edit_cannot_overwrite_reservation) ... ok\ntest_onboarding_approval_creates_scoped_merchant (test_flows.CampusFlows.test_onboarding_approval_creates_scoped_merchant) ... ok\ntest_origin_session_and_school_pause (test_flows.CampusFlows.test_origin_session_and_school_pause) ... ok\ntest_permissions_and_role_injection (test_flows.CampusFlows.test_permissions_and_role_injection) ... ok\ntest_picked_up_refund_does_not_fake_delivery_or_restore_food (test_flows.CampusFlows.test_picked_up_refund_does_not_fake_delivery_or_restore_food) ... ok\ntest_preparing_refund_freezes_then_no_restock (test_flows.CampusFlows.test_preparing_refund_freezes_then_no_restock) ... ok\ntest_quote_tampering_changed_price_and_scope (test_flows.CampusFlows.test_quote_tampering_changed_price_and_scope) ... ok\ntest_race_one_rider_only (test_flows.CampusFlows.test_race_one_rider_only) ... ok\ntest_stock_no_oversell_or_partial_reservation (test_flows.CampusFlows.test_stock_no_oversell_or_partial_reservation) ... ok\ntest_timeout_and_expired_offer (test_flows.CampusFlows.test_timeout_and_expired_offer) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 18.360s\n\nOK\n"
+}

@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-13 Asia/Singapore",
+  "status": "PASS",
+  "base_url": "http://127.0.0.1:8876",
+  "order_id": "HF1791860561587FE9",
+  "final_status": "COMPLETED",
+  "total_cents": 1300,
+  "payment_adapter": "LOCAL_DEMO",
+  "real_transactions": false,
+  "cross_tenant_order_read_status": 404,
+  "idempotency_and_duplicate_payment": "PASS",
+  "calls": [
+    {
+      "role": "student",
+      "method": "POST",
+      "path": "/quotes",
+      "status": 200
+    },
+    {
+      "role": "student",
+      "method": "POST",
+      "path": "/orders",
+      "status": 200
+    },
+    {
+      "role": "student",
+      "method": "POST",
+      "path": "/orders",
+      "status": 200
+    },
+    {
+      "role": "student",
+      "method": "POST",
+      "path": "/orders/HF1791860561587FE9/simulate-payment",
+      "status": 200
+    },
+    {
+      "role": "student",
+      "method": "POST",
+      "path": "/orders/HF1791860561587FE9/simulate-payment",
+      "status": 200
+    },
+    {
+      "role": "merchant",
+      "method": "GET",
+      "path": "/orders/HF1791860561587FE9",
+      "status": 200
+    },
+    {
+      "role": "merchant",
+      "method": "POST",
+      "path": "/orders/HF1791860561587FE9/actions",
+      "status": 200
+    },
+    {
+      "role": "merchant",
+      "method": "GET",
+      "path": "/orders/HF1791860561587FE9",
+      "status": 200
+    },
+    {
+      "role": "merchant",
+      "method": "POST",
+      "path": "/orders/HF1791860561587FE9/actions",
+      "status": 200
+    },
+    {
+      "role": "rider_b",
+      "method": "GET",
+      "path": "/orders/HF1791860561587FE9",
+      "status": 200
+    },
+    {
+      "role": "rider_b",
+      "method": "POST",
+      "path": "/orders/HF1791860561587FE9/actions",
+      "status": 200
+    },
+    {
+      "role": "rider_b",
+      "method": "GET",
+      "path": "/orders/HF1791860561587FE9",
+      "status": 200
+    },
+    {
+      "role": "rider_b",
+      "method": "POST",
+      "path": "/orders/HF1791860561587FE9/actions",
+      "status": 200
+    },
+    {
+      "role": "rider_b",
+      "method": "GET",
+      "path": "/orders/HF1791860561587FE9",
+      "status": 200
+    },
+    {
+      "role": "rider_b",
+      "method": "POST",
+      "path": "/orders/HF1791860561587FE9/actions",
+      "status": 200
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/orders/HF1791860561587FE9",
+      "status": 200
+    },
+    {
+      "role": "student",
+      "method": "POST",
+      "path": "/orders/HF1791860561587FE9/actions",
+      "status": 200
+    },
+    {
+      "role": "student2",
+      "method": "GET",
+      "path": "/me",
+      "status": 200
+    }
+  ]
+}
